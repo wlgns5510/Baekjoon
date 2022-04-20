@@ -9,9 +9,15 @@ public class Ex12 {
 		A = sc.nextInt();
 		B = sc.nextInt();
 		C = sc.nextInt();
-		if( {
+		System.out.println((A+B)%C);
+		System.out.println((A%C+B%C)%C);
+		System.out.println((A*B)%C);
+		System.out.println((A%C*B%C)%C);
 			
-		}
+		
+		
 		sc.close();
 	}
+		
 }
+
