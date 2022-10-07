@@ -1,8 +1,8 @@
-package com.baek.조건문;
+package com.baek.study;
 
 import java.util.Scanner;
 
-public class Ex07 {
+public class Ex2480 {
 
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
@@ -34,7 +34,6 @@ public class Ex07 {
 
 	
 	
-
 
 
 
