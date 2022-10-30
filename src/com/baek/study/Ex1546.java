@@ -1,24 +1,31 @@
 package com.baek.study;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
-import java.util.Collections;
 
 public class Ex1546 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+
+		Scanner in = new Scanner(System.in);
+		 
+		double arr[] = new double[in.nextInt()];
 		
-		int count = sc.nextInt();
-		ArrayList<Integer> list = new ArrayList<>();
-		
-		for(int i=1; i<=count; i++) {
-			int point = sc.nextInt();
-			list.add(point);
+		for(int i = 0; i < arr.length; i++) {
+			arr[i] = in.nextDouble();
 		}
-		int M = Collections.max(list);
-		System.out.println(M);
+		in.close();
 		
+		double sum = 0;
+		Arrays.sort(arr);
+		
+		for(int i = 0; i < arr.length; i++) {
+			sum += ((arr[i] / arr[arr.length-1]) * 100);
+		}
+		System.out.print(sum / arr.length);
+		 
+
 		sc.close();
 
 	}
