@@ -55,9 +55,3 @@ public class Ex4344 {
 	}
 
 }
-
-/*
- * sum += point[j]; double avg = sum/N; //점수의 평균 System.out.println(point[j]);
- * 
- * if(point[j] > avg) { count++;
- */
