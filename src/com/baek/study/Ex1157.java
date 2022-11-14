@@ -30,4 +30,6 @@ public class Ex1157 {
 		}
 		System.out.println(c);
 	}
+	
+	
 }
